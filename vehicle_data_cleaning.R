@@ -505,7 +505,7 @@ home_area[vehicle.dt$driver_home_area_type == 3] <- "Rural"
 home_area <- factor(home_area, levels = c("Urban", "Small town", "Rural"))
 vehicle.dt[,driver_home_area_type:=NULL]
 vehicle.dt <- cbind(vehicle.dt, home_area)
-rm(home_are)
+rm(home_area)
 table(vehicle.dt$home_area)
 
 
