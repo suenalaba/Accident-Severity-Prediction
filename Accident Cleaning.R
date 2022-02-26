@@ -1,3 +1,5 @@
+#NOTE: Lines 15, 487 requires setting of working directory
+
 #Automation to install packages that are necessary but not yet installed
 list.of.packages <- c("data.table", "stringr", "ggplot2", "rcompanion")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
@@ -480,3 +482,9 @@ ggplot(data = accident.dt, aes(x = month,fill=accident_severity)) +
 #Proportion of severe accidents are likewise seemingly independent of month
 
 #=================== END OF DATA EXPLORATION OF ACCIDENT DATA ==================
+
+#set working directory to export cleaned data to...
+setwd("C:/Users/joshua/Downloads/BC2407 Analytics II/Datasets Cleaned")
+
+#export as csv
+write.csv(accident.dt, "accident_data_cleaned.csv",row.names = FALSE)
