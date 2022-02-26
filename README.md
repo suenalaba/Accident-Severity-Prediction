@@ -11,9 +11,7 @@ https://cran.r-project.org/bin/windows/base/ <br>
 
 This is a repository for Analytics II project <br>
 
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = suenalaba/Analytics-II"/>
-</a>
+suenalaba(https://github.com/suenalaba)
 
 Done by: <br>
 Joshua <br>
