@@ -1,4 +1,4 @@
-# Analytics-II
+# Predicting Traffic Accident Severity in the UK using machine learning paradigms
 
 Ensure that your Rstudio is the same version for code to run smoothly <br>
 
