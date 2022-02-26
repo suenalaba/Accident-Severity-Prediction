@@ -11,11 +11,14 @@ https://cran.r-project.org/bin/windows/base/ <br>
 
 This is a repository for Analytics II project <br>
 
-suenalaba(https://github.com/suenalaba)
+List of contributors: <br>
 
-Done by: <br>
-Joshua <br>
-Joel <br>
-Ethan <br>
-Brandon <br>
-He Ying <br>
+| Name      | Github Username         | Github Profile  |
+| ------------- |:-------------:| -----:|
+| Joshua Khoo     | suenalaba | https://github.com/suenalaba |
+| Joel Mui     | joelmui | https://github.com/joelmui |
+| Ethan     | toupdate | toupdate |
+| Brandon    | toupdate | toupdate |
+| He Ying     | toupdate | toupdate |
+
+
