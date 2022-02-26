@@ -6,7 +6,7 @@ Version used: <br>
 R version 4.1.2 (2021-11-01) -- "Bird Hippie" <br>
 Copyright (C) 2021 The R Foundation for Statistical Computing <br>
 
-To upload your latest version of R: <br>
+To update your software to the latest version of R: <br>
 https://cran.r-project.org/bin/windows/base/ <br>
 
 This is a repository for Analytics II project <br>
