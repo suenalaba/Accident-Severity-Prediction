@@ -32,17 +32,6 @@ casualty.dt <- fread("casualty_data_cleaned.csv") #118732 14 var
 accident_casualty.dt <- merge(accident.dt, casualty.dt) #118732 obs 40 variables
 accidents_combined.dt <- merge(accident_casualty.dt,vehicle.dt) #73,337 obs 62 variables
 
-#accident_index left out only used for joining
-#accident_year not important for ML as we are not doing any time series analysis
-#police_force, first_road_class, first_road_number not significant based on data exploration
-#pedestrian_crossing_human_control, #pedestrian_crossing_physical_facilities,
-#weather_conditions, #road_surface_conditions, special_conditions_at_site, carriageway_hazards,
-#trunk_road_flag
-#number_of_vehicles, number_of_casualties, police_officer_present doesn't aid in predicting, they are more of description of accident that already occurred
-#car passenger, bus_or_coach_passenger, pedestrian_road_maintenance_worker,
-#casualty_home_area_type, casualty_imd_decile, age_of_driver, engine_capacity_cc, age_of_vehicle,
-#towing and articulation
-
 #subset relevant columns based on data exploration
 
 #73,337 obs 33 variables
@@ -77,12 +66,6 @@ categoricalCols = c("vehicle_manoeuvre", "hit_object_off_carriageway",
 
 #convert data to categorical accordingly
 accidentml.dt[, (categoricalCols) := lapply(.SD, as.factor), .SDcols = categoricalCols]
-
-#relevel some categories
-accidentml.dt$pedestrian_movement <- relevel(accidentml.dt$pedestrian_movement, ref = "Not a pedestrian")
-accidentml.dt$pedestrian_location <- relevel(accidentml.dt$pedestrian_location, ref = "Not a pedestrian")
-accidentml.dt$junction_detail <- relevel(accidentml.dt$junction_detail, ref = "9")
-accidentml.dt$casualty_class <- relevel(accidentml.dt$casualty_class, ref = "Pedestrian")
 
 str(accidentml.dt)
 
