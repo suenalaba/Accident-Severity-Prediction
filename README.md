@@ -15,8 +15,8 @@ List of contributors: <br>
 
 | Name      | Github Username         | Github Profile  |
 | ------------- |:-------------:| -----:|
-| Joshua Khoo     | suenalaba | https://github.com/suenalaba |
-| Joel Mui     | joelmui | https://github.com/joelmui |
+| Joshua Khoo     | suenalaba | [suenalaba](https://github.com/suenalaba) |
+| Joel Mui     | joelmui | [joelmui](https://github.com/joelmui) |
 | Ethan     | toupdate | toupdate |
 | Brandon    | toupdate | toupdate |
 | He Ying     | toupdate | toupdate |
