@@ -25,7 +25,7 @@ library(cattonum)
 
 #replace YOUR_API_KEY_HERE with your own API key.
 #not the best practice I know....
-register_google(key = "AIzaSyD2P6VrwQrxIxGccqEE68zEJp7VIeloaPo")
+register_google(key = "YOUR_API_KEY_HERE)
 
 
 #set your working directory here..
